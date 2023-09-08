@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!--package for best alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--package for best alert -->
+    <title>Tic Toc Toe</title>
+  </head>
+  <body class="flex items-center justify-center h-screen bg-black text-white">
+    <!-- all element inside this tag -->
+
+    <div>
+      <h2 class="text-center font-bold text-5xl mb-16 animate-bounce">
+        Tic Toc Toe
+      </h2>
+      <div class="text-center">
+        <span
+          class="textTurn text-center font-semibold tracking-wide text-xl mb-4 underline"
+        >
+          Player X ' s turn.
+        </span>
+      </div>
+
+      <div
+        class="bg-white grid grid-cols-3 divide-x-2 divide-y-2 divide-black border-4 border-red-500 text-black w-80 h-80 mt-5"
+      >
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+        <button
+          class="buttons font-bold text-5xl text-center"
+          data-name="btn"
+        ></button>
+      </div>
+      <div class="text-center mt-5">
+        <button
+          class="ResetGame hidden bg-gray-400 p-3 rounded-lg text-lg font-semibold text-black"
+        >
+          Play Again
+        </button>
+      </div>
+    </div>
+    <!-- all element inside this tag -->
+    <script src="./script.js"></script>
+  </body>
+</html>
